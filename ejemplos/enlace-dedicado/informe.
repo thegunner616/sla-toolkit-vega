@@ -1,0 +1,12 @@
+Servicio: Enlace Dedicado Base 100 Mbps | Periodo: 2026-07
+--------------------------------------------------------------------------
+Metrica            Objetivo       Medido         Veredicto             
+--------------------------------------------------------------------------
+disponibilidad     >= 99.9 %      99.94 %        CUMPLE                
+latencia           <= 30.0 ms     21.50 ms       CUMPLE                
+jitter             <= 10.0 ms     4.20 ms        CUMPLE                
+perdida            <= 0.5 %       0.12 %         CUMPLE                
+throughput         >= 90.0 Mbps   93.50 Mbps     CUMPLE                
+--------------------------------------------------------------------------
+Credito calculado : 0% = 0% (Tope: 50%)
+Credito aplicable : 0% -> $0 CLP neto
