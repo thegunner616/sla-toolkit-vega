@@ -1,0 +1,14 @@
+Servicio: Internet dedicado simetrico 200 Mbps - Agricola Valle de Elqui SpA | Periodo: 2026-09
+--------------------------------------------------------------------------
+Metrica            Objetivo       Medido         Veredicto             
+--------------------------------------------------------------------------
+disponibilidad     >= 99.9 %      99.63 %        NO CUMPLE             
+latencia           <= 30.0 ms     27.40 ms       CUMPLE                
+jitter             <= 10.0 ms     9.92 ms        CUMPLE                
+perdida            <= 0.5 %       Cob < 90%      EVIDENCIA INSUFICIENTE
+throughput         >= 180.0 Mbps  180.75 Mbps    CUMPLE                
+tiempo_respuesta   <= 60.0 min    66.00 min      NO CUMPLE             
+mttr               <= 240.0 min   75.00 min      CUMPLE                
+--------------------------------------------------------------------------
+Credito calculado : 10% (disponibilidad) + 5% (tiempo_respuesta) = 15% (Tope: 50%)
+Credito aplicable : 15% -> $180.000 CLP neto
