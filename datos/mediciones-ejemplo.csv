@@ -1,0 +1,9 @@
+fecha,metrica,valor,unidad
+2026-07-10,caida_atribuible,25,min
+2026-07-31,latencia,21.5,ms
+2026-07-31,jitter,4.2,ms
+2026-07-31,perdida,0.12,%
+2026-07-05,throughput,94,Mbps
+2026-07-12,throughput,92,Mbps
+2026-07-19,throughput,95,Mbps
+2026-07-26,throughput,93,Mbps

@@ -1,0 +1,38 @@
+servicio: "Enlace Dedicado Base 100 Mbps"
+periodo: "2026-07"
+minutos_periodo: 44640
+cobertura_minima: 0.90
+cargo_mensual: 1000000
+tope_credito: 0.50
+credito_otras: 0.05
+
+metricas:
+  disponibilidad:
+    operador: ">="
+    objetivo: 99.9
+    unidad: "%"
+  latencia:
+    operador: "<="
+    objetivo: 30
+    unidad: "ms"
+    estadistico: promedio
+  jitter:
+    operador: "<="
+    objetivo: 10
+    unidad: "ms"
+    estadistico: promedio
+  perdida:
+    operador: "<="
+    objetivo: 0.5
+    unidad: "%"
+    estadistico: promedio
+  throughput:
+    operador: ">="
+    objetivo: 90
+    unidad: "Mbps"
+    estadistico: promedio
+
+creditos_disponibilidad:
+  - {desde: 99.5, hasta: 99.9, credito: 0.10}
+  - {desde: 99.0, hasta: 99.5, credito: 0.25}
+  - {desde: 0.0,  hasta: 99.0, credito: 0.50}
